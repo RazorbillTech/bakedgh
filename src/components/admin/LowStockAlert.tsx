@@ -34,7 +34,7 @@ const LowStockAlert = () => {
       <CardContent>
         <div className="space-y-3">
           {lowStockProducts.slice(0, 3).map((product) => (
-            <Alert key={product.id} variant="outline" className="bg-white border-yellow-200">
+            <Alert key={product.id} className="bg-white border-yellow-200">
               <AlertTitle className="font-medium text-yellow-800 flex justify-between">
                 {product.name}
                 <span className={product.stock === 0 ? "text-red-500" : "text-yellow-500"}>
