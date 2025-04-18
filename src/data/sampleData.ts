@@ -1,81 +1,80 @@
-
 import { Product, Order } from '@/types';
 
 export const sampleProducts: Product[] = [
   {
     id: '1',
-    name: 'Chocolate Fudge Cake',
-    description: 'Rich chocolate cake with a decadent fudge frosting',
-    price: 150,
-    image: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
-    category: 'Cakes',
-    stock: 10,
+    name: 'Jollof Rice',
+    description: 'A beloved West African rice dish cooked in a flavorful tomato-based sauce, served with fried plantains, salad, and chicken',
+    price: 50,
+    image: 'https://images.unsplash.com/photo-1624154504737-c0b54715b4dd?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
+    category: 'Main Dishes',
+    stock: 20,
     featured: true
   },
   {
     id: '2',
-    name: 'Red Velvet Cake',
-    description: 'Classic red velvet cake with cream cheese frosting',
-    price: 170,
-    image: 'https://images.unsplash.com/photo-1586788680434-30d324626f4c?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
-    category: 'Cakes',
-    stock: 8
+    name: 'Waakye',
+    description: 'Traditional combination of rice and beans, with spaghetti, boiled eggs, fried plantains, shito, and assorted meats',
+    price: 45,
+    image: 'https://images.unsplash.com/photo-1604329760661-e71dc83f8444?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
+    category: 'Main Dishes',
+    stock: 15
   },
   {
     id: '3',
-    name: 'Vanilla Birthday Cake',
-    description: 'Light vanilla sponge with buttercream and sprinkles',
-    price: 120,
-    image: 'https://images.unsplash.com/photo-1621303837174-89787a7d4729?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
-    category: 'Cakes',
-    stock: 15,
+    name: 'Fufu with Light Soup',
+    description: 'Pounded cassava and plantain dough served with tomato-based soup and goat meat',
+    price: 55,
+    image: 'https://images.unsplash.com/photo-1627308595229-7830a5c91f9f?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
+    category: 'Main Dishes',
+    stock: 10,
     featured: true
   },
   {
     id: '4',
-    name: 'Carrot Cake',
-    description: 'Moist carrot cake with cream cheese frosting and walnuts',
-    price: 140,
-    image: 'https://images.unsplash.com/photo-1550617931-e17a7b70dce2?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
-    category: 'Cakes',
-    stock: 7
+    name: 'Banku with Grilled Tilapia',
+    description: 'Fermented corn and cassava dough balls with spicy grilled tilapia and pepper sauce',
+    price: 60,
+    image: 'https://images.unsplash.com/photo-1639324973125-0d7fdf306d5a?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
+    category: 'Main Dishes',
+    stock: 8
   },
   {
     id: '5',
-    name: 'Lemon Drizzle Cake',
-    description: 'Zesty lemon cake with a tangy lemon drizzle',
-    price: 130,
-    image: 'https://images.unsplash.com/photo-1519915028121-7d3463d20b13?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
-    category: 'Cakes',
-    stock: 9
+    name: 'Red Red',
+    description: 'Hearty bean stew cooked in palm oil, served with fried ripe plantains and gari',
+    price: 40,
+    image: 'https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
+    category: 'Main Dishes',
+    stock: 12
   },
   {
     id: '6',
-    name: 'Strawberry Cheesecake',
-    description: 'Creamy cheesecake with fresh strawberry topping',
-    price: 180,
-    image: 'https://images.unsplash.com/photo-1533134242443-d4fd215305ad?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
-    category: 'Cheesecakes',
-    stock: 6,
+    name: 'Kenkey with Fried Fish',
+    description: 'Fermented corn dough dumplings with fried fish, shito, and sliced onions',
+    price: 35,
+    image: 'https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
+    category: 'Main Dishes',
+    stock: 15,
     featured: true
   },
   {
     id: '7',
-    name: 'Chocolate Cupcakes',
-    description: 'Moist chocolate cupcakes with chocolate buttercream',
-    price: 25,
-    image: 'https://images.unsplash.com/photo-1587668178277-295251f900ce?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
-    category: 'Cupcakes',
-    stock: 24
+    name: 'Kelewele',
+    description: 'Spicy fried plantain cubes seasoned with ginger, garlic, and chili',
+    price: 20,
+    image: 'https://images.unsplash.com/photo-1543340904-0b1d843bccda?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
+    category: 'Sides & Snacks',
+    stock: 30
   },
   {
     id: '8',
-    name: 'Vanilla Cupcakes',
-    description: 'Classic vanilla cupcakes with colorful sprinkles',
-    price: 20,
-    image: 'https://images.unsplash.com/photo-1599785209707-a456fc1337bb?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
-    category: 'Cupcakes',
-    stock: 36
+    name: 'Boiled Yam with Garden Egg Stew',
+    description: 'Slices of boiled yam with stew made from garden eggs, tomatoes, and spices',
+    price: 30,
+    image: 'https://images.unsplash.com/photo-1604329756574-bda01e1b3745?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
+    category: 'Sides & Snacks',
+    stock: 20
   }
 ];
 
@@ -91,18 +90,18 @@ export const sampleOrders: Order[] = [
     items: [
       {
         productId: '1',
-        productName: 'Chocolate Fudge Cake',
-        price: 150,
+        productName: 'Jollof Rice',
+        price: 50,
         quantity: 1
       },
       {
         productId: '7',
-        productName: 'Chocolate Cupcakes',
-        price: 25,
+        productName: 'Kelewele',
+        price: 20,
         quantity: 3
       }
     ],
-    total: 225,
+    total: 70,
     date: '2023-09-15T10:30:00Z',
     status: 'delivered',
     payment: {
@@ -124,12 +123,12 @@ export const sampleOrders: Order[] = [
     items: [
       {
         productId: '3',
-        productName: 'Vanilla Birthday Cake',
-        price: 120,
+        productName: 'Fufu with Light Soup',
+        price: 55,
         quantity: 1
       }
     ],
-    total: 120,
+    total: 55,
     date: '2023-09-16T14:45:00Z',
     status: 'processing',
     payment: {
@@ -148,18 +147,18 @@ export const sampleOrders: Order[] = [
     items: [
       {
         productId: '6',
-        productName: 'Strawberry Cheesecake',
-        price: 180,
+        productName: 'Kenkey with Fried Fish',
+        price: 35,
         quantity: 1
       },
       {
         productId: '8',
-        productName: 'Vanilla Cupcakes',
-        price: 20,
+        productName: 'Boiled Yam with Garden Egg Stew',
+        price: 30,
         quantity: 6
       }
     ],
-    total: 300,
+    total: 125,
     date: '2023-09-17T09:15:00Z',
     status: 'pending',
     payment: {
@@ -180,18 +179,18 @@ export const sampleOrders: Order[] = [
     items: [
       {
         productId: '2',
-        productName: 'Red Velvet Cake',
-        price: 170,
+        productName: 'Waakye',
+        price: 45,
         quantity: 1
       },
       {
         productId: '4',
-        productName: 'Carrot Cake',
-        price: 140,
+        productName: 'Banku with Grilled Tilapia',
+        price: 60,
         quantity: 1
       }
     ],
-    total: 310,
+    total: 105,
     date: '2023-09-18T16:20:00Z',
     status: 'shipped',
     payment: {
@@ -213,18 +212,18 @@ export const sampleOrders: Order[] = [
     items: [
       {
         productId: '5',
-        productName: 'Lemon Drizzle Cake',
-        price: 130,
+        productName: 'Red Red',
+        price: 40,
         quantity: 1
       },
       {
         productId: '7',
-        productName: 'Chocolate Cupcakes',
-        price: 25,
+        productName: 'Kelewele',
+        price: 20,
         quantity: 4
       }
     ],
-    total: 230,
+    total: 100,
     date: '2023-09-19T11:05:00Z',
     status: 'pending',
     payment: {
