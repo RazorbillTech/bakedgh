@@ -1,4 +1,3 @@
-
 import { UtensilsCrossed, Award, Clock, Truck } from 'lucide-react';
 
 const features = [
@@ -29,11 +28,9 @@ const AboutSection = () => {
     <section className="bg-white py-16" id="about">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold mb-4">About Ayewamu</h2>
+          <h2 className="text-3xl font-bold mb-4">About Ayewamu by Jane</h2>
           <p className="max-w-2xl mx-auto text-gray-600">
-            We're a renowned restaurant in Ghana specializing in authentic local cuisine.
-            With a focus on quality and tradition, we bring you the best flavors of Ghana
-            right to your doorstep.
+            Ayewamu By Jane is a must-visit restaurant for local food lovers. Located in Achimota, we offer an extensive menu of delicious Ghanaian dishes with generous portions and authentic flavors. Our charming and inviting atmosphere, complemented by comfortable seating and ambient music, creates a pleasant dining experience for all our guests.
           </p>
         </div>
 

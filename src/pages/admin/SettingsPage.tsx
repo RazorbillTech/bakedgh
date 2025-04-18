@@ -18,21 +18,20 @@ const SettingsPage = () => {
   const navigate = useNavigate();
   
   const [businessInfo, setBusinessInfo] = useState({
-    name: 'BakedGH',
-    email: 'info@bakedgh.com',
-    phone: '+233 55 123 4567',
-    address: '123 Bakery Street, Accra, Ghana',
-    description: 'Premium bakery in Ghana offering delicious cakes and pastries for all occasions.'
+    name: 'Ayewamu by Jane',
+    email: 'info@ayewamubyjane.com',
+    phone: '+233 59 303 3898',
+    address: 'Amoakohene Ave, Achimota, Accra, Ghana',
+    description: 'Authentic Ghanaian cuisine restaurant offering delicious local dishes from Banku and Okro Soup to Garden Egg Stew with Chicken and White Rice.'
   });
   
   const [notificationSettings, setNotificationSettings] = useState({
     emailNotifications: true,
     newOrderNotifications: true,
     lowStockNotifications: true,
-    notificationEmail: 'info@bakedgh.com'
+    notificationEmail: 'info@ayewamubyjane.com'
   });
   
-  // Redirect if not authenticated
   useEffect(() => {
     if (!isAuthenticated) {
       navigate('/login');
@@ -57,13 +56,11 @@ const SettingsPage = () => {
   };
 
   const saveBusinessInfo = () => {
-    // In a real app, this would save to a backend
     console.log('Saving business info:', businessInfo);
     toast.success('Business information saved successfully');
   };
 
   const saveNotificationSettings = () => {
-    // In a real app, this would save to a backend
     console.log('Saving notification settings:', notificationSettings);
     toast.success('Notification settings saved successfully');
   };

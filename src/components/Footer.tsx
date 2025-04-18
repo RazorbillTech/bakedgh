@@ -7,9 +7,9 @@ const Footer = () => {
       <div className="container mx-auto px-4 py-8">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
-            <h3 className="text-lg font-semibold mb-4">BakedGH</h3>
+            <h3 className="text-lg font-semibold mb-4">Ayewamu by Jane</h3>
             <p className="text-gray-600 text-sm">
-              Premium bakery in Ghana offering delicious cakes and pastries for all occasions.
+              Experience authentic Ghanaian cuisine with our delicious local dishes. From Banku and Okro Soup to Garden Egg Stew, we serve the best local dishes in Achimota.
             </p>
           </div>
           
@@ -26,10 +26,10 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">Contact Us</h3>
             <address className="not-italic text-sm text-gray-600 space-y-2">
-              <p>123 Bakery Street</p>
-              <p>Accra, Ghana</p>
-              <p>Email: info@bakedgh.com</p>
-              <p>Phone: +233 55 123 4567</p>
+              <p>Amoakohene Ave</p>
+              <p>Achimota, Accra, Ghana</p>
+              <p>Email: info@ayewamubyjane.com</p>
+              <p>Phone: +233 59 303 3898</p>
             </address>
           </div>
           
@@ -50,7 +50,7 @@ const Footer = () => {
         </div>
         
         <div className="border-t mt-8 pt-6 text-center text-sm text-gray-600">
-          <p>&copy; {new Date().getFullYear()} BakedGH. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Ayewamu by Jane. All rights reserved.</p>
         </div>
       </div>
     </footer>
