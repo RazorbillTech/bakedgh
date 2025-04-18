@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from 'react';
 import { useProducts } from '@/contexts/ProductContext';
 import { Product } from '@/types';
@@ -34,7 +33,6 @@ const ProductForm = ({ isOpen, onClose, productToEdit }: ProductFormProps) => {
   const [formData, setFormData] = useState<Omit<Product, 'id'>>(defaultProduct);
   const [errors, setErrors] = useState<Record<string, string>>({});
   
-  // Populate form when editing a product
   useEffect(() => {
     if (productToEdit) {
       const { id, ...productData } = productToEdit;
@@ -216,7 +214,7 @@ const ProductForm = ({ isOpen, onClose, productToEdit }: ProductFormProps) => {
             <Button type="button" variant="outline" onClick={onClose}>
               Cancel
             </Button>
-            <Button type="submit" className="bg-purple-500 hover:bg-purple-600 text-white">
+            <Button type="submit" className="bg-teal-600 hover:bg-teal-700 text-white">
               {productToEdit ? 'Update Product' : 'Add Product'}
             </Button>
           </DialogFooter>

@@ -1,4 +1,3 @@
-
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from '@/contexts/AuthContext';
@@ -79,7 +78,7 @@ const LoginPage = () => {
             
             <Button 
               type="submit" 
-              className="w-full mt-4 bg-purple-500 hover:bg-purple-600 text-white"
+              className="w-full mt-4 bg-teal-600 hover:bg-teal-700 text-white"
               disabled={isSubmitting}
             >
               {isSubmitting ? 'Logging in...' : 'Login'}

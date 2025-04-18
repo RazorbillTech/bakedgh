@@ -1,4 +1,3 @@
-
 import { useOrders } from '@/contexts/OrderContext';
 import { OrderStatus } from '@/types';
 import { Button } from '@/components/ui/button';
@@ -45,7 +44,7 @@ const OrderStatusUpdate = ({ orderId, currentStatus, onStatusUpdate }: OrderStat
       {nextStatus && (
         <Button 
           onClick={handleUpdateStatus} 
-          className="w-full bg-purple-500 hover:bg-purple-600 text-white"
+          className="w-full bg-teal-600 hover:bg-teal-700 text-white"
         >
           Mark as {nextStatus}
         </Button>
