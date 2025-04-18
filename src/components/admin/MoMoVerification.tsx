@@ -80,7 +80,7 @@ const MoMoVerification = ({ orderId, phoneNumber, transactionId }: MoMoVerificat
           
           <Button 
             onClick={handleVerifyPayment} 
-            className="w-full bg-purple-500 hover:bg-purple-600 text-white"
+            className="w-full bg-teal-500 hover:bg-teal-600 text-white"
             disabled={isVerifying}
           >
             {isVerifying ? 'Verifying...' : 'Verify Payment'}

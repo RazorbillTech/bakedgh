@@ -1,4 +1,3 @@
-
 import { useNavigate } from 'react-router-dom';
 import { useOrders } from '@/contexts/OrderContext';
 import { formatCurrency, formatDate, getStatusColorClass } from '@/utils/formatters';
@@ -87,7 +86,7 @@ const RecentOrders = () => {
         <div className="mt-4 text-right">
           <Button 
             variant="link" 
-            className="text-purple-500" 
+            className="text-teal-500" 
             onClick={() => navigate('/admin/orders')}
           >
             View All Orders

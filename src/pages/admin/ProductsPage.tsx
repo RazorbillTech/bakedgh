@@ -95,11 +95,11 @@ const ProductsPage = () => {
           <div className="mb-6 flex flex-col md:flex-row md:items-center md:justify-between">
             <div>
               <h1 className="text-2xl font-bold">Products</h1>
-              <p className="text-gray-600">Manage your bakery products</p>
+              <p className="text-gray-600">Manage your restaurant products</p>
             </div>
             <Button 
               onClick={handleAddProduct}
-              className="mt-4 md:mt-0 bg-purple-500 hover:bg-purple-600 text-white"
+              className="mt-4 md:mt-0 bg-teal-500 hover:bg-teal-600 text-white"
             >
               <Plus className="mr-2 h-4 w-4" /> Add Product
             </Button>

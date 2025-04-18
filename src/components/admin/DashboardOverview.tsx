@@ -35,7 +35,7 @@ const DashboardOverview = () => {
     {
       title: "Total Sales",
       value: formatCurrency(totalSales),
-      icon: <CreditCard className="h-5 w-5 text-purple-500" />,
+      icon: <CreditCard className="h-5 w-5 text-teal-500" />,
       description: `${formatCurrency(salesThisMonth)} this month`
     },
     {

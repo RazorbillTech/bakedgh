@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from '@/contexts/AuthContext';
@@ -156,7 +155,7 @@ const SettingsPage = () => {
                   
                   <Button 
                     onClick={saveBusinessInfo}
-                    className="bg-purple-500 hover:bg-purple-600 text-white"
+                    className="bg-teal-500 hover:bg-teal-600 text-white"
                   >
                     <Save className="mr-2 h-4 w-4" />
                     Save Information
@@ -202,7 +201,7 @@ const SettingsPage = () => {
                           type="checkbox"
                           checked={notificationSettings.emailNotifications}
                           onChange={handleNotificationChange}
-                          className="h-4 w-4 rounded border-gray-300 text-purple-600 focus:ring-purple-500"
+                          className="h-4 w-4 rounded border-gray-300 text-teal-600 focus:ring-teal-500"
                         />
                       </div>
                     </div>
@@ -221,7 +220,7 @@ const SettingsPage = () => {
                           type="checkbox"
                           checked={notificationSettings.newOrderNotifications}
                           onChange={handleNotificationChange}
-                          className="h-4 w-4 rounded border-gray-300 text-purple-600 focus:ring-purple-500"
+                          className="h-4 w-4 rounded border-gray-300 text-teal-600 focus:ring-teal-500"
                         />
                       </div>
                     </div>
@@ -240,7 +239,7 @@ const SettingsPage = () => {
                           type="checkbox"
                           checked={notificationSettings.lowStockNotifications}
                           onChange={handleNotificationChange}
-                          className="h-4 w-4 rounded border-gray-300 text-purple-600 focus:ring-purple-500"
+                          className="h-4 w-4 rounded border-gray-300 text-teal-600 focus:ring-teal-500"
                         />
                       </div>
                     </div>
@@ -248,7 +247,7 @@ const SettingsPage = () => {
                   
                   <Button 
                     onClick={saveNotificationSettings}
-                    className="bg-purple-500 hover:bg-purple-600 text-white"
+                    className="bg-teal-500 hover:bg-teal-600 text-white"
                   >
                     <Save className="mr-2 h-4 w-4" />
                     Save Notification Settings
