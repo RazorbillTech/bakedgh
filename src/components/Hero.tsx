@@ -9,7 +9,7 @@ const Hero = () => {
   };
 
   return (
-    <div className="bg-gradient-to-b from-purple-50 to-white">
+    <div className="bg-gradient-to-b from-teal-50 to-white">
       <div className="container mx-auto px-4 py-16 md:py-24">
         <div className="flex flex-col md:flex-row items-center">
           <div className="md:w-1/2 text-center md:text-left mb-8 md:mb-0">
@@ -21,7 +21,7 @@ const Hero = () => {
             </p>
             <Button 
               onClick={scrollToProducts}
-              className="bg-purple-500 hover:bg-purple-600 text-white px-6 py-3 text-lg"
+              className="bg-teal-600 hover:bg-teal-700 text-white px-6 py-3 text-lg"
             >
               Order Now <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
@@ -34,7 +34,7 @@ const Hero = () => {
                 className="rounded-lg shadow-xl w-full"
               />
               <div className="absolute -bottom-4 -right-4 bg-white p-3 rounded-lg shadow-lg hidden md:block">
-                <span className="font-bold text-purple-500 text-lg">100% Authentic</span>
+                <span className="font-bold text-teal-600 text-lg">100% Authentic</span>
               </div>
             </div>
           </div>

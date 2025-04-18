@@ -3,22 +3,22 @@ import { UtensilsCrossed, Award, Clock, Truck } from 'lucide-react';
 
 const features = [
   {
-    icon: <UtensilsCrossed className="h-8 w-8 text-purple-500" />,
+    icon: <UtensilsCrossed className="h-8 w-8 text-teal-600" />,
     title: 'Authentic Recipes',
     description: 'We prepare all our dishes using traditional Ghanaian recipes and fresh local ingredients.'
   },
   {
-    icon: <Award className="h-8 w-8 text-purple-500" />,
+    icon: <Award className="h-8 w-8 text-teal-600" />,
     title: 'Expert Chefs',
     description: 'Our skilled chefs bring years of experience in traditional Ghanaian cuisine.'
   },
   {
-    icon: <Clock className="h-8 w-8 text-purple-500" />,
+    icon: <Clock className="h-8 w-8 text-teal-600" />,
     title: 'Fresh Preparation',
     description: 'Every dish is prepared fresh when you order, ensuring the best quality and taste.'
   },
   {
-    icon: <Truck className="h-8 w-8 text-purple-500" />,
+    icon: <Truck className="h-8 w-8 text-teal-600" />,
     title: 'Fast Delivery',
     description: 'We deliver your favorite Ghanaian dishes promptly across Accra and surrounding areas.'
   }
