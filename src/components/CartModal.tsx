@@ -1,4 +1,3 @@
-
 import { useCart } from '@/contexts/CartContext';
 import { formatCurrency } from '@/utils/formatters';
 import { Button } from '@/components/ui/button';
@@ -28,9 +27,6 @@ const CartModal = ({ isOpen, onClose }: CartModalProps) => {
         <DialogHeader>
           <div className="flex items-center justify-between">
             <DialogTitle>Your Cart</DialogTitle>
-            <Button variant="ghost" size="icon" onClick={onClose}>
-              <X className="h-4 w-4" />
-            </Button>
           </div>
         </DialogHeader>
         

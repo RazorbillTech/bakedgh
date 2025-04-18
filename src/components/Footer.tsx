@@ -50,7 +50,7 @@ const Footer = () => {
         </div>
         
         <div className="border-t mt-8 pt-6 text-center text-sm text-gray-600">
-          <p>&copy; {new Date().getFullYear()} Ayewamu by Jane. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Ayewamu by Jane. Powered by Razorbill Technologies.</p>
         </div>
       </div>
     </footer>

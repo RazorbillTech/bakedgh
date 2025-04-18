@@ -1,4 +1,3 @@
-
 import { Button } from '@/components/ui/button';
 import { ArrowRight } from 'lucide-react';
 
@@ -29,9 +28,9 @@ const Hero = () => {
           <div className="md:w-1/2">
             <div className="relative">
               <img 
-                src="https://images.unsplash.com/photo-1624154504737-c0b54715b4dd" 
-                alt="Delicious Jollof Rice" 
-                className="rounded-lg shadow-xl w-full"
+                src="images/main ayewamu.jpeg" 
+                alt="Delicious Local dishes" 
+                className="rounded-lg shadow-xl w-full h-96 object-cover"
               />
               <div className="absolute -bottom-4 -right-4 bg-white p-3 rounded-lg shadow-lg hidden md:block">
                 <span className="font-bold text-teal-600 text-lg">100% Authentic</span>

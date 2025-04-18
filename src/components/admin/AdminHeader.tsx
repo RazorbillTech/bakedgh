@@ -13,7 +13,7 @@ const AdminHeader = () => {
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <Link to="/admin" className="text-xl font-bold text-teal-500">BakedGH Admin</Link>
+          <Link to="/admin" className="text-xl font-bold text-teal-500">Ayewamu Admin</Link>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-6">

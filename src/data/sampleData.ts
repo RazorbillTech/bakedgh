@@ -6,7 +6,7 @@ export const sampleProducts: Product[] = [
     name: 'Jollof Rice',
     description: 'A beloved West African rice dish cooked in a flavorful tomato-based sauce, served with fried plantains, salad, and chicken',
     price: 50,
-    image: 'https://images.unsplash.com/photo-1624154504737-c0b54715b4dd?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
+    image: 'images/jollof.jpeg',
     category: 'Main Dishes',
     stock: 20,
     featured: true
@@ -16,7 +16,7 @@ export const sampleProducts: Product[] = [
     name: 'Waakye',
     description: 'Traditional combination of rice and beans, with spaghetti, boiled eggs, fried plantains, shito, and assorted meats',
     price: 45,
-    image: 'https://images.unsplash.com/photo-1604329760661-e71dc83f8444?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
+    image: 'images/waakye.jpeg',
     category: 'Main Dishes',
     stock: 15
   },
@@ -25,35 +25,35 @@ export const sampleProducts: Product[] = [
     name: 'Fufu with Light Soup',
     description: 'Pounded cassava and plantain dough served with tomato-based soup and goat meat',
     price: 55,
-    image: 'https://images.unsplash.com/photo-1627308595229-7830a5c91f9f?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
+    image: 'images/fufu.jpeg',
     category: 'Main Dishes',
     stock: 10,
     featured: true
   },
   {
     id: '4',
-    name: 'Banku with Grilled Tilapia',
-    description: 'Fermented corn and cassava dough balls with spicy grilled tilapia and pepper sauce',
-    price: 60,
-    image: 'https://images.unsplash.com/photo-1639324973125-0d7fdf306d5a?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
-    category: 'Main Dishes',
-    stock: 8
+    name: 'Boiled Plantain with Garden Egg Stew',
+    description: 'Slices of boiled plantain with stew made from garden eggs, tomatoes, and spices',
+    price: 30,
+    image: 'images/brodie.jpeg',
+    category: 'Sides & Snacks',
+    stock: 20
   },
   {
     id: '5',
-    name: 'Red Red',
+    name: 'Agwa mo',
     description: 'Hearty bean stew cooked in palm oil, served with fried ripe plantains and gari',
     price: 40,
-    image: 'https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
+    image: 'images/rice.jpeg',
     category: 'Main Dishes',
     stock: 12
   },
   {
     id: '6',
-    name: 'Kenkey with Fried Fish',
+    name: 'Tuo Zaafi',
     description: 'Fermented corn dough dumplings with fried fish, shito, and sliced onions',
     price: 35,
-    image: 'https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
+    image: 'images/tuo.jpeg',
     category: 'Main Dishes',
     stock: 15,
     featured: true
@@ -63,16 +63,16 @@ export const sampleProducts: Product[] = [
     name: 'Kelewele',
     description: 'Spicy fried plantain cubes seasoned with ginger, garlic, and chili',
     price: 20,
-    image: 'https://images.unsplash.com/photo-1543340904-0b1d843bccda?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
+    image: 'images/kelewele.png',
     category: 'Sides & Snacks',
     stock: 30
   },
   {
     id: '8',
-    name: 'Boiled Yam with Garden Egg Stew',
-    description: 'Slices of boiled yam with stew made from garden eggs, tomatoes, and spices',
+    name: 'Boiled Plantain with Garden Egg Stew',
+    description: 'Slices of boiled plantain with stew made from garden eggs, tomatoes, and spices',
     price: 30,
-    image: 'https://images.unsplash.com/photo-1604329756574-bda01e1b3745?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
+    image: 'images/brodie.jpeg',
     category: 'Sides & Snacks',
     stock: 20
   }
@@ -134,7 +134,7 @@ export const sampleOrders: Order[] = [
     payment: {
       type: 'cash'
     },
-    specialInstructions: 'Please write "Happy Birthday Emma" on the cake'
+    specialInstructions: 'Please deliver to my office at 4pm'
   },
   {
     id: 'ORD-123458',
