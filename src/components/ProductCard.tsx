@@ -24,7 +24,7 @@ const ProductCard = ({ product }: ProductCardProps) => {
           className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
         />
         {product.featured && (
-          <Badge className="absolute top-2 right-2 bg-purple-500 hover:bg-purple-600">
+          <Badge className="absolute top-2 right-2 bg-primary hover:bg-primary-dark">
             Featured
           </Badge>
         )}
@@ -39,7 +39,7 @@ const ProductCard = ({ product }: ProductCardProps) => {
       </CardContent>
       <CardFooter>
         <Button 
-          className="w-full bg-teal-600 hover:bg-teal-700 text-white"
+          className="w-full bg-primary hover:bg-primary-dark text-white"
           onClick={() => addToCart(product)}
           disabled={product.stock <= 0}
         >
