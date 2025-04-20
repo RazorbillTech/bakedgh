@@ -3,78 +3,78 @@ import { Product, Order } from '@/types';
 export const sampleProducts: Product[] = [
   {
     id: '1',
-    name: 'Classic Red Velvet Cake',
-    description: 'Luxurious red velvet cake with cream cheese frosting, perfect for special occasions',
-    price: 150,
-    image: 'https://images.unsplash.com/photo-1586788680399-2267d668bae6',
-    category: 'Classic Cakes',
+    name: 'Jollof Rice',
+    description: 'A beloved West African rice dish cooked in a flavorful tomato-based sauce, served with fried plantains, salad, and chicken',
+    price: 50,
+    image: 'images/jollof.jpeg',
+    category: 'Main Dishes',
     stock: 20,
     featured: true
   },
   {
     id: '2',
-    name: 'Chocolate Fudge Cake',
-    description: 'Rich chocolate layers with dark chocolate ganache and chocolate shavings',
-    price: 145,
-    image: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587',
-    category: 'Classic Cakes',
+    name: 'Waakye',
+    description: 'Traditional combination of rice and beans, with spaghetti, boiled eggs, fried plantains, shito, and assorted meats',
+    price: 45,
+    image: 'images/waakye.jpeg',
+    category: 'Main Dishes',
     stock: 15
   },
   {
     id: '3',
-    name: 'Vanilla Bean Celebration Cake',
-    description: 'Light and fluffy vanilla cake with buttercream frosting and rainbow sprinkles',
-    price: 130,
-    image: 'https://images.unsplash.com/photo-1464349095431-e9a21285b5f3',
-    category: 'Classic Cakes',
+    name: 'Fufu with Light Soup',
+    description: 'Pounded cassava and plantain dough served with tomato-based soup and goat meat',
+    price: 55,
+    image: 'images/fufu.jpeg',
+    category: 'Main Dishes',
     stock: 10,
     featured: true
   },
   {
     id: '4',
-    name: 'Carrot Cake Cupcakes',
-    description: 'Moist carrot cake cupcakes with cream cheese frosting and walnut topping',
-    price: 45,
-    image: 'https://images.unsplash.com/photo-1614707267537-b85aaf00c4b7',
-    category: 'Cupcakes',
-    stock: 30
+    name: 'Boiled Plantain with Garden Egg Stew',
+    description: 'Slices of boiled plantain with stew made from garden eggs, tomatoes, and spices',
+    price: 30,
+    image: 'images/brodie.jpeg',
+    category: 'Sides & Snacks',
+    stock: 20
   },
   {
     id: '5',
-    name: 'Strawberry Cheesecake',
-    description: 'Creamy New York style cheesecake with fresh strawberry topping',
-    price: 160,
-    image: 'https://images.unsplash.com/photo-1533134242443-d4fd5107340c',
-    category: 'Cheesecakes',
+    name: 'Agwa mo',
+    description: 'Hearty bean stew cooked in palm oil, served with fried ripe plantains and gari',
+    price: 40,
+    image: 'images/rice.jpeg',
+    category: 'Main Dishes',
     stock: 12
   },
   {
     id: '6',
-    name: 'Birthday Funfetti Cake',
-    description: 'Colorful vanilla cake filled with sprinkles and topped with rainbow buttercream',
-    price: 140,
-    image: 'https://images.unsplash.com/photo-1558301211-0d8c8ddee6ec',
-    category: 'Special Occasions',
+    name: 'Tuo Zaafi',
+    description: 'Fermented corn dough dumplings with fried fish, shito, and sliced onions',
+    price: 35,
+    image: 'images/tuo.jpeg',
+    category: 'Main Dishes',
     stock: 15,
     featured: true
   },
   {
     id: '7',
-    name: 'Chocolate Truffle Cupcakes',
-    description: 'Dark chocolate cupcakes filled with chocolate ganache and topped with chocolate curls',
-    price: 50,
-    image: 'https://images.unsplash.com/photo-1587668178277-295251f900ce',
-    category: 'Cupcakes',
-    stock: 25
+    name: 'Kelewele',
+    description: 'Spicy fried plantain cubes seasoned with ginger, garlic, and chili',
+    price: 20,
+    image: 'images/kelewele.png',
+    category: 'Sides & Snacks',
+    stock: 30
   },
   {
     id: '8',
-    name: 'Lemon Blueberry Cake',
-    description: 'Zesty lemon cake with fresh blueberries and lemon cream cheese frosting',
-    price: 135,
-    image: 'https://images.unsplash.com/photo-1592861956120-e524fc739696',
-    category: 'Classic Cakes',
-    stock: 18
+    name: 'Boiled Plantain with Garden Egg Stew',
+    description: 'Slices of boiled plantain with stew made from garden eggs, tomatoes, and spices',
+    price: 30,
+    image: 'images/brodie.jpeg',
+    category: 'Sides & Snacks',
+    stock: 20
   }
 ];
 
