@@ -77,7 +77,7 @@ const LoginPage = () => {
             
             <Button 
               type="submit" 
-              className="w-full mt-4 bg-teal-600 hover:bg-teal-700 text-white"
+              className="w-full mt-4 bg-purple-600 hover:bg-purple-700 text-white"
               disabled={isSubmitting}
             >
               {isSubmitting ? 'Logging in...' : 'Login'}

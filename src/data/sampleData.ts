@@ -90,18 +90,18 @@ export const sampleOrders: Order[] = [
     items: [
       {
         productId: '1',
-        productName: 'Jollof Rice',
-        price: 50,
+        productName: 'Chocolate Layer Cake',
+        price: 150,
         quantity: 1
       },
       {
-        productId: '7',
-        productName: 'Kelewele',
-        price: 20,
-        quantity: 3
+        productId: '2',
+        productName: 'Vanilla Bean Cheesecake',
+        price: 120,
+        quantity: 2
       }
     ],
-    total: 70,
+    total: 390,
     date: '2023-09-15T10:30:00Z',
     status: 'delivered',
     payment: {
@@ -123,18 +123,18 @@ export const sampleOrders: Order[] = [
     items: [
       {
         productId: '3',
-        productName: 'Fufu with Light Soup',
-        price: 55,
+        productName: 'Red Velvet Dream',
+        price: 140,
         quantity: 1
       }
     ],
-    total: 55,
+    total: 140,
     date: '2023-09-16T14:45:00Z',
     status: 'processing',
     payment: {
       type: 'cash'
     },
-    specialInstructions: 'Please deliver to my office at 4pm'
+    specialInstructions: 'Please add birthday message'
   },
   {
     id: 'ORD-123458',

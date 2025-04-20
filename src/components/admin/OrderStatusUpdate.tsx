@@ -12,13 +12,10 @@ interface OrderStatusUpdateProps {
 const OrderStatusUpdate = ({ orderId, currentStatus, onStatusUpdate }: OrderStatusUpdateProps) => {
   const { updateOrderStatus } = useOrders();
   
-  // Define status workflow
   const statusFlow: OrderStatus[] = ['pending', 'processing', 'shipped', 'delivered'];
   
-  // Get current status index
   const currentStatusIndex = statusFlow.indexOf(currentStatus);
   
-  // Determine next status
   const nextStatus = currentStatusIndex < statusFlow.length - 1 
     ? statusFlow[currentStatusIndex + 1] 
     : null;
@@ -44,7 +41,7 @@ const OrderStatusUpdate = ({ orderId, currentStatus, onStatusUpdate }: OrderStat
       {nextStatus && (
         <Button 
           onClick={handleUpdateStatus} 
-          className="w-full bg-teal-600 hover:bg-teal-700 text-white"
+          className="w-full bg-purple-600 hover:bg-purple-700 text-white"
         >
           Mark as {nextStatus}
         </Button>

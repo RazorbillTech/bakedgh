@@ -1,4 +1,3 @@
-
 import { useOrders } from '@/contexts/OrderContext';
 import { useProducts } from '@/contexts/ProductContext';
 import { formatCurrency } from '@/utils/formatters';
@@ -14,13 +13,11 @@ const DashboardOverview = () => {
   const { orders, getTotalSales } = useOrders();
   const { products } = useProducts();
   
-  // Calculate dashboard stats
   const totalSales = getTotalSales();
   const totalOrders = orders.length;
   const pendingOrders = orders.filter(order => order.status === 'pending').length;
   const lowStockProducts = products.filter(product => product.stock < 5).length;
   
-  // Get total sales this month
   const thisMonth = new Date().getMonth();
   const thisYear = new Date().getFullYear();
   const salesThisMonth = orders
@@ -30,30 +27,29 @@ const DashboardOverview = () => {
     })
     .reduce((sum, order) => sum + order.total, 0);
   
-  // Stats cards data
   const stats = [
     {
       title: "Total Sales",
       value: formatCurrency(totalSales),
-      icon: <CreditCard className="h-5 w-5 text-teal-500" />,
+      icon: <CreditCard className="h-5 w-5 text-purple-500" />,
       description: `${formatCurrency(salesThisMonth)} this month`
     },
     {
       title: "Total Orders",
       value: totalOrders,
-      icon: <ShoppingCart className="h-5 w-5 text-blue-500" />,
+      icon: <ShoppingCart className="h-5 w-5 text-purple-500" />,
       description: `${pendingOrders} pending`
     },
     {
       title: "Low Stock Items",
       value: lowStockProducts,
-      icon: <PackageOpen className="h-5 w-5 text-yellow-500" />,
+      icon: <PackageOpen className="h-5 w-5 text-purple-500" />,
       description: "Needs restock"
     },
     {
       title: "Products",
       value: products.length,
-      icon: <BarChart className="h-5 w-5 text-green-500" />,
+      icon: <BarChart className="h-5 w-5 text-purple-500" />,
       description: "Active products"
     }
   ];
