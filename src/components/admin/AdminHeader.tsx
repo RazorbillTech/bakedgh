@@ -12,12 +12,10 @@ const AdminHeader = () => {
     <header className="bg-white shadow-sm">
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
-          {/* Logo */}
-          <Link to="/admin" className="text-xl font-bold text-teal-500">Ayewamu Admin</Link>
+          <Link to="/admin" className="text-xl font-bold text-purple-500">Baked GH Admin</Link>
 
-          {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-6">
-            <Link to="/" className="text-gray-700 hover:text-teal-500 transition-colors flex items-center gap-1">
+            <Link to="/" className="text-gray-700 hover:text-purple-500 transition-colors flex items-center gap-1">
               <Home size={18} />
               <span>View Shop</span>
             </Link>
@@ -31,7 +29,6 @@ const AdminHeader = () => {
             </Button>
           </nav>
 
-          {/* Mobile Menu Button */}
           <div className="md:hidden">
             <Button
               variant="ghost"
@@ -43,12 +40,11 @@ const AdminHeader = () => {
           </div>
         </div>
 
-        {/* Mobile Navigation */}
         {isMobileMenuOpen && (
           <nav className="md:hidden mt-4 pb-4 flex flex-col space-y-4">
             <Link 
               to="/" 
-              className="text-gray-700 hover:text-teal-500 transition-colors flex items-center gap-2 py-2"
+              className="text-gray-700 hover:text-purple-500 transition-colors flex items-center gap-2 py-2"
               onClick={() => setIsMobileMenuOpen(false)}
             >
               <Home size={18} />

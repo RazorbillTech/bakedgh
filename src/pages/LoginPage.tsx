@@ -15,7 +15,6 @@ const LoginPage = () => {
   const [error, setError] = useState('');
   const [isSubmitting, setIsSubmitting] = useState(false);
   
-  // Redirect if already logged in
   if (isAuthenticated) {
     navigate('/admin');
     return null;
@@ -88,7 +87,7 @@ const LoginPage = () => {
         <CardFooter className="flex justify-center">
           <Button 
             variant="link" 
-            className="text-gray-500"
+            className="text-purple-500"
             onClick={() => navigate('/')}
           >
             Return to Shop
