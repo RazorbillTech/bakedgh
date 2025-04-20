@@ -39,7 +39,7 @@ const ProductCard = ({ product }: ProductCardProps) => {
       </CardContent>
       <CardFooter>
         <Button 
-          className="w-full bg-teal-600 hover:bg-teal-700 text-white"
+          className="w-full bg-purple-600 hover:bg-purple-700 text-white"
           onClick={() => addToCart(product)}
           disabled={product.stock <= 0}
         >
