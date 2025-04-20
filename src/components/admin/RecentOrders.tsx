@@ -18,6 +18,8 @@ import {
   TableRow 
 } from '@/components/ui/table';
 import { Eye } from 'lucide-react';
+import { cn } from '@/lib/utils';
+import { DialogDescription } from '@/components/ui/dialog';
 
 const RecentOrders = () => {
   const { getRecentOrders } = useOrders();
@@ -86,7 +88,7 @@ const RecentOrders = () => {
         <div className="mt-4 text-right">
           <Button 
             variant="link" 
-            className="text-teal-500" 
+            className="text-purple-500" 
             onClick={() => navigate('/admin/orders')}
           >
             View All Orders

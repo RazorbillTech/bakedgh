@@ -17,19 +17,22 @@ const SettingsPage = () => {
   const { isAuthenticated } = useAuth();
   const navigate = useNavigate();
   
-  const [businessInfo, setBusinessInfo] = useState({
-    name: 'Ayewamu by Jane',
-    email: 'info@ayewamubyjane.com',
-    phone: '+233 59 303 3898',
-    address: 'Amoakohene Ave, Achimota, Accra, Ghana',
-    description: 'Authentic Ghanaian cuisine restaurant offering delicious local dishes from Banku and Okro Soup to Garden Egg Stew with Chicken and White Rice.'
-  });
+  const initialBusinessInfo = {
+    name: "Baked GH",
+    address: "Achimota, Accra",
+    phone: "+233 12 345 6789",
+    email: 'info@bakedgh.com',
+    description: 'Delightful bakery offering a wide variety of fresh cakes and pastries, from classic recipes to custom creations.',
+    logoUrl: "/placeholder-logo.png",
+  };
+  
+  const [businessInfo, setBusinessInfo] = useState(initialBusinessInfo);
   
   const [notificationSettings, setNotificationSettings] = useState({
     emailNotifications: true,
     newOrderNotifications: true,
     lowStockNotifications: true,
-    notificationEmail: 'info@ayewamubyjane.com'
+    notificationEmail: 'info@bakedgh.com'
   });
   
   useEffect(() => {
@@ -152,7 +155,7 @@ const SettingsPage = () => {
                   
                   <Button 
                     onClick={saveBusinessInfo}
-                    className="bg-teal-500 hover:bg-teal-600 text-white"
+                    className="bg-purple-500 hover:bg-purple-600 text-white"
                   >
                     <Save className="mr-2 h-4 w-4" />
                     Save Information
@@ -198,7 +201,7 @@ const SettingsPage = () => {
                           type="checkbox"
                           checked={notificationSettings.emailNotifications}
                           onChange={handleNotificationChange}
-                          className="h-4 w-4 rounded border-gray-300 text-teal-600 focus:ring-teal-500"
+                          className="h-4 w-4 rounded border-gray-300 text-purple-600 focus:ring-purple-500"
                         />
                       </div>
                     </div>
@@ -217,7 +220,7 @@ const SettingsPage = () => {
                           type="checkbox"
                           checked={notificationSettings.newOrderNotifications}
                           onChange={handleNotificationChange}
-                          className="h-4 w-4 rounded border-gray-300 text-teal-600 focus:ring-teal-500"
+                          className="h-4 w-4 rounded border-gray-300 text-purple-600 focus:ring-purple-500"
                         />
                       </div>
                     </div>
@@ -236,7 +239,7 @@ const SettingsPage = () => {
                           type="checkbox"
                           checked={notificationSettings.lowStockNotifications}
                           onChange={handleNotificationChange}
-                          className="h-4 w-4 rounded border-gray-300 text-teal-600 focus:ring-teal-500"
+                          className="h-4 w-4 rounded border-gray-300 text-purple-600 focus:ring-purple-500"
                         />
                       </div>
                     </div>
@@ -244,7 +247,7 @@ const SettingsPage = () => {
                   
                   <Button 
                     onClick={saveNotificationSettings}
-                    className="bg-teal-500 hover:bg-teal-600 text-white"
+                    className="bg-purple-500 hover:bg-purple-600 text-white"
                   >
                     <Save className="mr-2 h-4 w-4" />
                     Save Notification Settings

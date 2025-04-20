@@ -1,4 +1,3 @@
-
 import { Link, useLocation } from 'react-router-dom';
 import { cn } from '@/lib/utils';
 import { 
@@ -23,7 +22,7 @@ const SidebarItem = ({ icon, title, href, isActive }: SidebarItemProps) => (
     className={cn(
       "flex items-center gap-3 rounded-md px-3 py-2 text-sm transition-colors",
       isActive 
-        ? "bg-teal-100 text-teal-900 font-medium" 
+        ? "bg-purple-100 text-purple-900 font-medium" 
         : "text-gray-600 hover:bg-gray-100"
     )}
   >

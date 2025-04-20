@@ -1,4 +1,3 @@
-
 import { useState } from 'react';
 import { useProducts } from '@/contexts/ProductContext';
 import ProductCard from './ProductCard';
@@ -41,8 +40,8 @@ const ProductGrid = () => {
         <div className="relative flex-1">
           <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400" size={18} />
           <Input
-            type="text"
-            placeholder="Search local dishes..."
+            type="search"
+            placeholder="Search cakes & pastries..."
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
             className="pl-10"

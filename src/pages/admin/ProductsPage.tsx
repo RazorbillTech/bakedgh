@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from '@/contexts/AuthContext';
@@ -99,7 +98,7 @@ const ProductsPage = () => {
             </div>
             <Button 
               onClick={handleAddProduct}
-              className="mt-4 md:mt-0 bg-teal-500 hover:bg-teal-600 text-white"
+              className="mt-4 md:mt-0 bg-purple-500 hover:bg-purple-600 text-white"
             >
               <Plus className="mr-2 h-4 w-4" /> Add Product
             </Button>

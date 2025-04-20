@@ -214,7 +214,7 @@ const ProductForm = ({ isOpen, onClose, productToEdit }: ProductFormProps) => {
             <Button type="button" variant="outline" onClick={onClose}>
               Cancel
             </Button>
-            <Button type="submit" className="bg-teal-600 hover:bg-teal-700 text-white">
+            <Button type="submit" className="bg-purple-600 hover:bg-purple-700 text-white">
               {productToEdit ? 'Update Product' : 'Add Product'}
             </Button>
           </DialogFooter>

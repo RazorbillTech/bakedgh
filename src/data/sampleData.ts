@@ -147,13 +147,13 @@ export const sampleOrders: Order[] = [
     items: [
       {
         productId: '6',
-        productName: 'Kenkey with Fried Fish',
+        productName: 'Strawberry flavored cake',
         price: 35,
         quantity: 1
       },
       {
         productId: '8',
-        productName: 'Boiled Yam with Garden Egg Stew',
+        productName: 'Hazel nut Cake',
         price: 30,
         quantity: 6
       }
@@ -179,13 +179,13 @@ export const sampleOrders: Order[] = [
     items: [
       {
         productId: '2',
-        productName: 'Waakye',
+        productName: 'Red Velvet Cake',
         price: 45,
         quantity: 1
       },
       {
         productId: '4',
-        productName: 'Banku with Grilled Tilapia',
+        productName: 'Cheese cake',
         price: 60,
         quantity: 1
       }
@@ -212,13 +212,13 @@ export const sampleOrders: Order[] = [
     items: [
       {
         productId: '5',
-        productName: 'Red Red',
+        productName: 'Fruit Cake',
         price: 40,
         quantity: 1
       },
       {
         productId: '7',
-        productName: 'Kelewele',
+        productName: 'Sponge Cake',
         price: 20,
         quantity: 4
       }
@@ -230,5 +230,48 @@ export const sampleOrders: Order[] = [
       type: 'cash'
     },
     specialInstructions: 'Please deliver after 4pm'
+  },
+  {
+    id: 'ORD001',
+    customer: {
+      name: 'John Doe',
+      email: 'john@example.com',
+      phone: '+233 55 123 4567',
+      address: 'Accra, Ghana'
+    },
+    items: [
+      { productId: 'P001', productName: 'Red Velvet Cake', quantity: 1, price: 50 },
+      { productId: 'P002', productName: 'Chocolate Fudge Cake', quantity: 1, price: 75 }
+    ],
+    total: 125,
+    date: '2023-09-15T10:30:00Z',
+    status: 'delivered',
+    payment: {
+      type: 'momo',
+      details: {
+        phoneNumber: '+233 55 123 4567',
+        transactionId: 'MOMO-12345'
+      }
+    }
+  },
+  {
+    id: 'ORD002',
+    customer: {
+      name: 'Jane Smith',
+      email: 'jane@example.com',
+      phone: '+233 24 987 6543',
+      address: 'Kumasi, Ghana'
+    },
+    items: [
+      { productId: 'P003', productName: 'Carrot Cake', quantity: 2, price: 40 },
+      { productId: 'P004', productName: 'Vanilla Sponge Cake', quantity: 1, price: 35 }
+    ],
+    total: 115,
+    date: '2023-09-16T14:45:00Z',
+    status: 'processing',
+    payment: {
+      type: 'cash'
+    },
+    specialInstructions: 'Please add birthday message'
   }
 ];
