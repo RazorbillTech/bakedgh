@@ -2,17 +2,9 @@
 
 ## Project info
 
-**URL**: https://lovable.dev/projects/ed5a38a8-f9d4-4679-b4d0-3be401701fde
+**URL**: https://bakedgh.netlify.app/
 
 ## How can I edit this code?
-
-There are several ways of editing your application.
-
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/ed5a38a8-f9d4-4679-b4d0-3be401701fde) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
 
 **Use your preferred IDE**
 
